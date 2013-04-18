@@ -1,0 +1,6 @@
+<html>
+{% for users in user_list %}
+<h2>User {{ users.id }}, age {{ users.age }} has {{ (0,1,2)|length }} ratings</h2>
+{% endfor %}
+</html>
+

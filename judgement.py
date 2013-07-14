@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 heroku = Heroku(app)
-# fill in secret key
+# fill in your secret key, please!
 SECRET_KEY = ''
 app.config.from_object(__name__)
 
